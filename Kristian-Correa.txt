@@ -103,4 +103,6 @@ Stretch Questions
     Inline Block: img
     5. In your own words, explain the box model. What is the fix for the box model? 
     The rules that make up element sizes when adding padding, borders, and margins.
-     
+    Currently the default for CSS when adding padding, the padding increases the content size.
+    To fix that and keep the context size with padding you use the
+    box-sizing: border-box; property and value.
